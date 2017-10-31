@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-const API_KEY = 'AIzaSyAIVtRs2cddQP7DZRMcDUHdCRWYdNPmgUw';
 
 
 class Searchbar extends Component {
