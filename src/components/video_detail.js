@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Create a new component. This component should produce some HTML
 const VideoDetail = ({video}) => {
   if(!video){
     return <div>Loading</div>;
@@ -17,13 +16,12 @@ const VideoDetail = ({video}) => {
       </div>
 
       <div className="details">
-        <div>{video.snippet.title}</div>
-        <div>{video.snippet.description}</div>
+        <div style={{fontWeight:'bolder', color:'#4d4dca'}}>{video.snippet.title}</div>
+        <div style={{fontSize:14}}>{video.snippet.description}</div>
       </div>
 
     </div>
   );
 }
 
-// Take this component, generated HTML and put it on the page(in the DOM)
 export default VideoDetail;

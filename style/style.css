@@ -5,6 +5,7 @@
 
 .search-bar input {
   width: 75%;
+  border: 1px solid grey;
 }
 
 .video-item img{
@@ -20,6 +21,7 @@
 
 .list-group-item{
   cursor: pointer;
+  font-size: 14px;
 }
 
 .list-group-item:hover{
